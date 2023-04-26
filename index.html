@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google -->
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- script -->
+    <!-- jquery -->
+    <title>Document</title>
+</head>
+<!-- html -->
+<body>
+    <!-- ページ作成 -->
+    <div id="book">
+        <!-- ページ1 -->
+        <div class="book-content">
+            <h1 class="wf-sawarabigothic">今日なに食べる？</h1>
+            <p class="book-text">あなたのメニュー決めます</p>
+            <img class="book-pic" src="./img/top.png" alt="#">
+        </div>
+        <!-- ページ2 -->
+        <div class="book-content">
+            <h2 class="book-h2">メニューと金額を追加してね！</h2>
+            <div class="book-flexi">
+                <input type="text" id="key">
+                <input type="text" id="memo">
+            </div>
+            <a href="#" class="btn" id="save">追加</a>
+            <div class="book-flex">
+                <img class="book-img" src="./img/pic1.png" alt="#">
+                <img class="book-img" src="./img/pic2.png" alt="#">
+            </div>
+        </div>
+        <!-- ページ3 -->
+        <div class="book-content">
+            <table class="book-table" id="list">
+                <tr>
+                    <th class="book-th">メニュー</th>
+                    <th class="book-th">金額</th>
+                </tr>
+            </table>
+        </div>
+<!-- //------------------------------------------------// -->
+        <!-- ページ4 -->
+        <div class="book-content">
+            <p class="page-4p">下のボタンを押してね</p>
+
+            <a href="#" id="book-btn">ボタン</a>
+        </div>
+        <!-- ページ5 -->
+        <div class="book-content">
+            <div class="card">
+                <div class="card-img">
+                    <p id="view"></p>
+                </div>
+            </div>
+        </div>
+<!-- //--------------------------------------------------------// -->
+        <!-- ページ6 -->
+        <div class="book-content">
+            <div>
+                <h3 class="book-h3">明日の食べ物占い</h3>
+                <a href="#" class="btn-2" id="book-h3">クリック</a>
+                <p id="viewp"></p>
+            </div>
+            <!-- <p>茨城県の名産は？</p>
+            <form action="#">
+                <input name="answer" type="radio" id="a">納豆</input>
+                <input name="answer" type="radio" value="b">コロッケ</input>
+                <input name="answer" type="radio" value="c">からあげ</input>
+            </form> -->
+            <a href="#" id="clear">リセット</a>
+
+        </div>
+    </div>
+<!-- script -->
+<script src="./js/jquery-3.6.0.min.js"></script>
+<!-- turn.js -->
+<script src="./turnjs4/lib/turn.js"></script>
+<script src="./js/main.js"></script>
+</body>
+</html>
